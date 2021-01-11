@@ -1,0 +1,5 @@
+<project name="geometrylib" basedir="." default="copy">
+	<target name="copy">
+		<get src="https://repo1.maven.org/maven2/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar" dest="gson-2.8.5.jar" usetimestamp="true" verbose="true" retries="5" />
+	</target>
+</project>
