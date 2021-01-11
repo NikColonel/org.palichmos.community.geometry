@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Geometry
+Bundle-SymbolicName: org.palichmos.community.geometry;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: Palichmos Team
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: org.adempiere.plugin.utils;bundle-version="3.1.0",
+ org.adempiere.base,
+ org.adempiere.ui.zk,
+ org.zkoss.zk.library
+Bundle-Activator: org.adempiere.plugin.utils.AdempiereActivator
+Bundle-ClassPath: .,
+ gson-2.8.5.jar
+Service-Component: OSGI-INF/org.palichmos.geometry.modelfactory.xml
+Bundle-ActivationPolicy: lazy
+Import-Package: org.adempiere.webui.desktop,
+ org.adempiere.webui.session

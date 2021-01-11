@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         id="org.palichmos.process.ImportGeoJSONToSalesRegion"
+         name="org.palichmos.process.ImportGeoJSONToSalesRegion"
+         point="org.adempiere.base.Process">
+      <process
+            class="org.palichmos.process.ImportGeoJSONToSalesRegion">
+      </process>
+   </extension>
+   <extension
+         id="org.palichmos.process.ExportGeoJSONToSalesRegion"
+         name="org.palichmos.process.ExportGeoJSONToSalesRegion"
+         point="org.adempiere.base.Process">
+      <process
+            class="org.palichmos.process.ExportGeoJSONToSalesRegion">
+      </process>
+   </extension>
+
+</plugin>
